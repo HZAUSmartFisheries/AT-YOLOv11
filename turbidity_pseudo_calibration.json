@@ -1,0 +1,11 @@
+{
+  "data": "yolo_dataset_combined_val.yaml",
+  "split": "train",
+  "imgsz": 640,
+  "source": "preaugment",
+  "n": 1200,
+  "lower_quantile": 0.05,
+  "upper_quantile": 0.95,
+  "log_raw_q05": 0.2783404514193535,
+  "log_raw_q95": 0.6554123103618622
+}

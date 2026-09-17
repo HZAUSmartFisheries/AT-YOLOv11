@@ -1,0 +1,6 @@
+train: datasets/expzhonghun/images/train
+val: datasets/expzhonghun/images/val
+test: datasets/expzhonghun/images/test
+
+names:
+  0: fish

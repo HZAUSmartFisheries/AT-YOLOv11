@@ -1,0 +1,6 @@
+train: datasets/expyz/images/train
+val: datasets/expyz/images/val
+test: datasets/expyz/images/test
+
+names:
+  0: fish

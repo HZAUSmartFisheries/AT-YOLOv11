@@ -14,9 +14,9 @@ The default model configuration combines:
 
 The default configuration is [`ultralytics/cfg/models/11/yolo11-TurbidityHead-Deep-TABlock-P4.yaml`](ultralytics/cfg/models/11/yolo11-TurbidityHead-Deep-TABlock-P4.yaml).
 
-## Datasets
+## BC-TurbiNet Dataset
 
-The dataset release contains three YOLO-format subsets with one class, `fish`:
+BC-TurbiNet is the underwater fish detection dataset used by this project. It contains three YOLO-format subsets with one class, `fish`:
 
 | Directory | Condition | Train | Validation | Test |
 | --- | --- | ---: | ---: | ---: |
@@ -24,7 +24,7 @@ The dataset release contains three YOLO-format subsets with one class, `fish`:
 | `expzhonghun` | Moderate turbidity | 1,200 | 200 | 200 |
 | `expyz` | Severe turbidity | 1,200 | 200 | 200 |
 
-Download `expqingxi.tar.gz`, `expzhonghun.tar.gz`, and `expyz.tar.gz` from the [`dataset-v1.0` release](https://github.com/liuxiaodada/AT-YOLO11/releases/tag/dataset-v1.0), then extract them into `datasets/`:
+Download `expqingxi.tar.gz`, `expzhonghun.tar.gz`, and `expyz.tar.gz` from the [`bc-turbinet-v1.0` release](https://github.com/liuxiaodada/AT-YOLO11/releases/tag/bc-turbinet-v1.0), then extract them into `datasets/`:
 
 ```bash
 mkdir -p datasets
@@ -95,7 +95,7 @@ The script trains with `expyz/images/train`, validates across all three turbidit
 
 ## License
 
-The code is based on Ultralytics and is distributed under the [AGPL-3.0 License](LICENSE). Dataset terms are provided with the dataset release.
+The code is based on Ultralytics and is distributed under the [AGPL-3.0 License](LICENSE). Terms for BC-TurbiNet are provided with the dataset release.
 
 ## Acknowledgments
 

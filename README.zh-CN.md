@@ -14,9 +14,9 @@ AT-YOLO11 是面向清晰、中度浑浊和严重浑浊水下环境的鱼类目�
 
 默认模型配置为 [`ultralytics/cfg/models/11/yolo11-TurbidityHead-Deep-TABlock-P4.yaml`](ultralytics/cfg/models/11/yolo11-TurbidityHead-Deep-TABlock-P4.yaml)。
 
-## 数据集
+## BC-TurbiNet 数据集
 
-数据集采用 YOLO 格式，类别为 `fish`：
+BC-TurbiNet 是本项目使用的水下鱼类检测数据集，采用 YOLO 格式，类别为 `fish`：
 
 | 目录 | 水体条件 | 训练集 | 验证集 | 测试集 |
 | --- | --- | ---: | ---: | ---: |
@@ -24,7 +24,7 @@ AT-YOLO11 是面向清晰、中度浑浊和严重浑浊水下环境的鱼类目�
 | `expzhonghun` | 中度浑浊 | 1,200 | 200 | 200 |
 | `expyz` | 严重浑浊 | 1,200 | 200 | 200 |
 
-从 [`dataset-v1.0` Release](https://github.com/liuxiaodada/AT-YOLO11/releases/tag/dataset-v1.0) 下载 `expqingxi.tar.gz`、`expzhonghun.tar.gz` 和 `expyz.tar.gz`，然后解压到 `datasets/`：
+从 [`bc-turbinet-v1.0` Release](https://github.com/liuxiaodada/AT-YOLO11/releases/tag/bc-turbinet-v1.0) 下载 `expqingxi.tar.gz`、`expzhonghun.tar.gz` 和 `expyz.tar.gz`，然后解压到 `datasets/`：
 
 ```bash
 mkdir -p datasets
@@ -95,7 +95,7 @@ python tools/run_at_yolov11_seeds.py --seeds 0 1 2 3 4 --epochs 150 --batch 32 -
 
 ## 许可协议
 
-代码基于 Ultralytics，并按照 [AGPL-3.0 License](LICENSE) 发布。数据集使用和再分发条款将随数据集 Release 一同提供。
+代码基于 Ultralytics，并按照 [AGPL-3.0 License](LICENSE) 发布。BC-TurbiNet 的使用和再分发条款将随数据集 Release 一同提供。
 
 ## 致谢
 

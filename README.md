@@ -2,7 +2,7 @@
 
 [中文说明](README.zh-CN.md)
 
-AT-YOLO11 is an underwater fish detector designed for clear, moderate-turbidity, and severe-turbidity conditions. This repository contains the final model implementation, model and dataset configurations, turbidity calibration, and the reproducible training entry point.
+AT-YOLOv11 is an underwater fish detector designed for clear, moderate-turbidity, and severe-turbidity conditions. This repository contains the final model implementation, model and dataset configurations, turbidity calibration, and the reproducible training entry point.
 
 ## Method
 
